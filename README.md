@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+QualityBuilt Construction
+A modern, high-performance web application built for the construction industry, focusing on quality assurance and project management.
 
-# Run and deploy your AI Studio app
+🚀 Live Demo
+You can view the live site here: https://plug-connect-solutions.github.io/QualityBuilt/
 
-This contains everything you need to run your app locally.
+🛠 Tech Stack
+Framework: React 18
 
-View your app in AI Studio: https://ai.studio/apps/drive/1MuEpv9M0GzqK3gmw-9XiWSvgnd-FgJGW
+Build Tool: Vite
 
-## Run Locally
+Language: TypeScript
 
-**Prerequisites:**  Node.js
+Deployment: GitHub Actions & GitHub Pages
 
+⚙️ Features
+Responsive Design: Optimized for mobile, tablet, and desktop viewing.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Automated CI/CD: Integrated GitHub Actions workflow for seamless deployment upon every push to the main branch.
+
+Type Safety: Built with TypeScript to ensure robust code quality and maintainability.
+
+📥 Getting Started
+Prerequisites
+Node.js (Version 18 or higher recommended)
+
+npm (comes with Node.js)
+
+Installation
+Clone the repository:
+
+Bash
+
+git clone https://github.com/plug-connect-solutions/QualityBuilt.git
+cd QualityBuilt
+Install dependencies:
+
+Bash
+
+npm install
+Run the development server:
+
+Bash
+
+npm run dev
+The app will be available at http://localhost:5173.
+
+📦 Deployment
+The project is automatically deployed via the .github/workflows/static.yml file.
+
+To update the live site:
+
+Commit your changes to the main branch.
+
+Push to GitHub.
+
+The Deploy Vite site to Pages action will trigger, build the project (outputting to the /dist folder), and host it on GitHub Pages.
